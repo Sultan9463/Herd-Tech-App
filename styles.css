@@ -68,7 +68,70 @@ body , .card-bg{
     border: 1px solid black;
 }
 a{
-    text-decoration: none;
+    /* text-decoration: none; */
+    color: black;
+}
+header a{
+    text-decoration: none !important;
+}
+.align a{
+    text-decoration: none !important;
+}
+
+.tail{
+    font-size: 18px !important;
+}
+
+/* parti 2 */
+
+/* Carte du formulaire */
+.form-container {
+    background: #fff;
+    padding: 30px;
+    width: 50%;
+    height: 100vh;
+}
+.login-imag{
+    width: 50%;
+    background-image: url(Images-2/Login_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+/* Champs */
+.field {
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.field input{
+    width: 100%;
+    padding: 24px;
+    border: 2px solid #d7f2cb;
+    border-radius: 6px;
+    outline: none;
+    font-size: 20px !important;
+}
+.field label {
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    background: #fff;
+    padding: 0 6px;
+    color: #777;
+    font-size: 20px;
+    transform: translateY(-50%);
+    transition: 0.3s;
+}
+
+/* Animation label */
+.field input:focus{
+    border-color: #1976d2;
+}
+.field input:focus + label,
+.field input:valid + label{
+    top: 0;
+    font-size: 20px;
     color: black;
 }
 

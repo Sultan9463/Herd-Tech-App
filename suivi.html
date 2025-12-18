@@ -50,7 +50,7 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#"><i class="bi bi-person-fill-gear"></i> Paramètre
                                         du compte</a></li>
-                                <li><a class="dropdown-item" href="#"> <i class="bi bi-box-arrow-right"></i> Se
+                                <li><a class="dropdown-item" href="connection.html"> <i class="bi bi-box-arrow-right"></i> Se
                                         déconnecter</a></li>
                             </ul>
                         </div>
@@ -65,10 +65,10 @@
     <main class="container-fluid">
         <div class="row">
             <!-- NAV -->
-             <nav class="col-12 col-md-3 col-lg-12
+            <nav class="col-12 col-md-3 col-lg-12
                    bg-light p-3 nav1
                    d-flex flex-column flex-lg-row
-                   gap-3 flex-wrap">
+                   gap-3 align">
 
                 <div class="bg-white shadow rounded-3 text-center p-3 flex-lg-fill">
                     <img src="Icons/dashboard.svg" style="width:100px" alt="">
@@ -125,7 +125,8 @@
 
                 <div class="position-relative bg-white shadow rounded-3 text-center p-3 flex-lg-fill">
                     <!-- Badge notification -->
-                    <span class="position-absolute top-0 start-0 translate-middle badge p-2 fs-5 rounded-pill bg-danger">
+                    <span
+                        class="position-absolute top-0 start-0 translate-middle badge p-2 fs-5 rounded-pill bg-danger">
                         16
                     </span>
                     <!-- Contenu du card -->
@@ -137,39 +138,54 @@
             </nav>
 
             <!-- cachet -->
-             <nav class="col-12 col-md-3 col-lg-12
+            <nav class="col-12 col-md-3 col-lg-12
                    bg-light p-3 cach d-none
                    d-flex flex-column flex-lg-row
                    gap-3 flex-wrap">
-                <a href="index.html"><div class="bg-white rounded-3  p-2 shadow-sm">
-                    <img src="Icons/dashboard.svg" style="width:60px" alt="">
-                </div></a>
+                <a href="index.html">
+                    <div class="bg-white rounded-3  p-2 shadow-sm">
+                        <img src="Icons/dashboard.svg" style="width:60px" alt="">
+                    </div>
+                </a>
 
-                <a href="carte.html"><div class="bg-white rounded-3 p-2 shadow-sm">
-                    <img src="Icons/Carte de la ferme.svg" style="width:60px" alt="">
-                </div></a>
+                <a href="carte.html">
+                    <div class="bg-white rounded-3 p-2 shadow-sm">
+                        <img src="Icons/Carte de la ferme.svg" style="width:60px" alt="">
+                    </div>
+                </a>
 
-                <a href="cheptel.html"><div class="bg-white rounded-3 p-2 shadow-sm">
-                    <img src="Icons/Bovins.svg" style="width:60px" alt="">
-                </div></a>
+                <a href="cheptel.html">
+                    <div class="bg-white rounded-3 p-2 shadow-sm">
+                        <img src="Icons/Bovins.svg" style="width:60px" alt="">
+                    </div>
+                </a>
 
-                <a href="stockage.html"><div class="bg-white rounded-3 p-2 shadow-sm">
-                    <img src="Icons/Stockage.svg" style="width:60px" alt="">
-                </div></a>
+                <a href="stockage.html">
+                    <div class="bg-white rounded-3 p-2 shadow-sm">
+                        <img src="Icons/Stockage.svg" style="width:60px" alt="">
+                    </div>
+                </a>
 
-                <a href="suivi.html"><div class="bg-white rounded-3 p-2 shadow-sm">
-                    <img src="Icons/Suivi du bétail.svg" style="width:60px" alt="">
-                </div></a>
+                <a href="suivi.html">
+                    <div class="bg-white rounded-3 p-2 shadow-sm">
+                        <img src="Icons/Suivi du bétail.svg" style="width:60px" alt="">
+                    </div>
+                </a>
 
-                <a href="tache.html"><div class="bg-white rounded-3 p-2 shadow-sm">
-                    <img src="Icons/Gestionnaire de Taches.svg" style="width:60px" alt="">
-                </div></a>
-               <a href="notification.html"><div class="position-relative bg-white shadow rounded-3 text-center p-3 flex-lg-fill">
-                    <span class="position-absolute top-0 start-0 translate-middle badge p-1 fs-5 rounded-pill bg-danger">
-                        16
-                    </span>
-                    <img src="Icons/Notifications.svg" style="width:60px" alt="">
-                </div></a>
+                <a href="tache.html">
+                    <div class="bg-white rounded-3 p-2 shadow-sm">
+                        <img src="Icons/Gestionnaire de Taches.svg" style="width:60px" alt="">
+                    </div>
+                </a>
+                <a href="notification.html">
+                    <div class="position-relative bg-white shadow rounded-3 text-center p-3 flex-lg-fill">
+                        <span
+                            class="position-absolute top-0 start-0 translate-middle badge p-1 fs-5 rounded-pill bg-danger">
+                            16
+                        </span>
+                        <img src="Icons/Notifications.svg" style="width:60px" alt="">
+                    </div>
+                </a>
 
                 <a href="tache.html">
                     <div class="bg-white rounded-3 p-2 shadow-sm">
@@ -214,9 +230,9 @@
             <section class="col-12 contenu col-md-9 col-lg-12 p-0">
                 <div class="container-fluid d-flex align-items-center gap-3 my-4">
                     <div class="bg-white rounded-3 p-2 shadow-sm">
-                        <img src="Icons/Stockage.svg" style="width:100px" alt="">
+                        <img src="Icons/Suivi du bétail.svg" style="width:100px" alt="">
                     </div>
-                    <h3 class="mb-0">Stockage</h3>
+                    <h3 class="mb-0">Suivi</h3>
                 </div>
                 <div class="container-fluid bg-light rounded-4 ">
                     <div class="table-responsive">
@@ -272,7 +288,7 @@
                             <tbody>
                                 <tr class="fs-5" data-bs-toggle="modal" data-bs-target="#Sur-la-ligne">
 
-                                   <th> <input type="checkbox" class="form-check-input"></th>
+                                    <th> <input type="checkbox" class="form-check-input"></th>
                                     <th>hMphIWIFXz20AHQ7f95X</th>
                                     <th>TAG_4</th>
                                     <th>
@@ -286,13 +302,13 @@
                                 </tr>
                                 <tr class="fs-5" data-bs-toggle="modal" data-bs-target="#Sur-la-ligne">
 
-                                  <th> <input type="checkbox" class="form-check-input"></th>
+                                    <th> <input type="checkbox" class="form-check-input"></th>
                                     <th>hMphIWIFXz20AHQ7f95X</th>
                                     <th>TAG_4</th>
                                     <th>
                                         <div class="cercle text-center rounded-3 fw-bold fs-2">11</div>
                                     </th>
-                                   <th class="d-flex gap-2">
+                                    <th class="d-flex gap-2">
                                         <button type="button" class="btn btn-danger fs-5 text-black"
                                             data-bs-toggle="modal" data-bs-target="#Supprime-table"> <i
                                                 class="bi bi-trash3-fill fs-5"></i> Supprimer</button>
@@ -300,13 +316,13 @@
                                 </tr>
                                 <tr class="fs-5" data-bs-toggle="modal" data-bs-target="#Sur-la-ligne">
 
-                                   <th> <input type="checkbox" class="form-check-input"></th>
+                                    <th> <input type="checkbox" class="form-check-input"></th>
                                     <th>hMphIWIFXz20AHQ7f95X</th>
                                     <th>TAG_4</th>
                                     <th>
                                         <div class="cercle text-center rounded-3 fw-bold fs-2">5</div>
                                     </th>
-                                   <th class="d-flex gap-2">
+                                    <th class="d-flex gap-2">
                                         <button type="button" class="btn btn-danger fs-5 text-black"
                                             data-bs-toggle="modal" data-bs-target="#Supprime-table"> <i
                                                 class="bi bi-trash3-fill fs-5"></i> Supprimer</button>
@@ -314,13 +330,13 @@
                                 </tr>
                                 <tr class="fs-5" data-bs-toggle="modal" data-bs-target="#Sur-la-ligne">
 
-                                   <th> <input type="checkbox" class="form-check-input"></th>
+                                    <th> <input type="checkbox" class="form-check-input"></th>
                                     <th>hMphIWIFXz20AHQ7f95X</th>
                                     <th>TAG_4</th>
                                     <th>
                                         <div class="cercle text-center rounded-3 fw-bold fs-2">4</div>
                                     </th>
-                                   <th class="d-flex gap-2">
+                                    <th class="d-flex gap-2">
                                         <button type="button" class="btn btn-danger fs-5 text-black"
                                             data-bs-toggle="modal" data-bs-target="#Supprime-table"> <i
                                                 class="bi bi-trash3-fill fs-5"></i> Supprimer</button>
@@ -413,94 +429,86 @@
     </div>
     <!-- modal ligne -->
     <div class="modal fade" tabindex="-1" id="Sur-la-ligne">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
 
-            <!-- HEADER -->
-            <div class="modal-header bg-secondary-subtle">
-                <h3 class="modal-title fw-bold">Modifier ce Tag RFID</h3>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                <!-- HEADER -->
+                <div class="modal-header bg-secondary-subtle">
+                    <h3 class="modal-title fw-bold">Modifier ce Tag RFID</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- BODY -->
+                <div class="modal-body">
+
+                    <h5 class="fw-bold mb-3">
+                        Tag label : <span class="text-success">TAG_2</span>
+                    </h5>
+
+                    <p class="fw-semibold">Liste des animaux utilisant ce tag</p>
+
+                    <table class="table table-light table-hover">
+                        <thead class="table-secondary">
+                            <tr class="fw-bold">
+                                <th>ID</th>
+                                <th>Catégorie</th>
+                                <th>Sexe</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr class="animal-row" data-bs-toggle="modal" data-bs-target="#supprimer"
+                                style="cursor:pointer">
+
+                                <td>hMphIWIFXz20</td>
+                                <td>Ovins</td>
+                                <td>Male</td>
+                                <td>Malade</td>
+                            </tr>
+
+                            <tr class="animal-row" data-bs-toggle="modal" data-bs-target="#supprimer"
+                                style="cursor:pointer">
+
+                                <td>hMphIWIFXz21</td>
+                                <td>Caprins</td>
+                                <td>Femelle</td>
+                                <td>Sain</td>
+                            </tr>
+                            <tr class="animal-row" data-bs-toggle="modal" data-bs-target="#supprimer"
+                                style="cursor:pointer">
+
+                                <td>hMphIWIFXz21</td>
+                                <td>Caprins</td>
+                                <td>Femelle</td>
+                                <td>Sain</td>
+                            </tr>
+                            <tr class="animal-row" data-bs-toggle="modal" data-bs-target="#supprimer"
+                                style="cursor:pointer">
+
+                                <td>hMphIWIFXz21</td>
+                                <td>Caprins</td>
+                                <td>Femelle</td>
+                                <td>Sain</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <!-- FOOTER -->
+                <div class="modal-footer bg-secondary-subtle">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">
+                        Annuler
+                    </button>
+                    <button class="btn btn-success">
+                        Enregistrer
+                    </button>
+                </div>
+
             </div>
-
-            <!-- BODY -->
-            <div class="modal-body">
-
-                <h5 class="fw-bold mb-3">
-                    Tag label : <span class="text-success">TAG_2</span>
-                </h5>
-
-                <p class="fw-semibold">Liste des animaux utilisant ce tag</p>
-
-                <table class="table table-light table-hover">
-                    <thead class="table-secondary">
-                        <tr class="fw-bold">
-                            <th>ID</th>
-                            <th>Catégorie</th>
-                            <th>Sexe</th>
-                            <th>Status</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr class="animal-row"
-                            data-bs-toggle="modal"
-                            data-bs-target="#supprimer"
-                            style="cursor:pointer">
-
-                            <td>hMphIWIFXz20</td>
-                            <td>Ovins</td>
-                            <td>Male</td>
-                            <td>Malade</td>
-                        </tr>
-
-                        <tr class="animal-row"
-                            data-bs-toggle="modal"
-                            data-bs-target="#supprimer"
-                            style="cursor:pointer">
-
-                            <td>hMphIWIFXz21</td>
-                            <td>Caprins</td>
-                            <td>Femelle</td>
-                            <td>Sain</td>
-                        </tr>
-                        <tr class="animal-row"
-                            data-bs-toggle="modal"
-                            data-bs-target="#supprimer"
-                            style="cursor:pointer">
-
-                            <td>hMphIWIFXz21</td>
-                            <td>Caprins</td>
-                            <td>Femelle</td>
-                            <td>Sain</td>
-                        </tr>
-                        <tr class="animal-row"
-                            data-bs-toggle="modal"
-                            data-bs-target="#supprimer"
-                            style="cursor:pointer">
-
-                            <td>hMphIWIFXz21</td>
-                            <td>Caprins</td>
-                            <td>Femelle</td>
-                            <td>Sain</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-            </div>
-
-            <!-- FOOTER -->
-            <div class="modal-footer bg-secondary-subtle">
-                <button class="btn btn-secondary" data-bs-dismiss="modal">
-                    Annuler
-                </button>
-                <button class="btn btn-success">
-                    Enregistrer
-                </button>
-            </div>
-
         </div>
     </div>
-</div>
 
 
     <!-- modifier -->
@@ -589,11 +597,9 @@
                 </div>
 
                 <!-- BODY -->
-                <div class="modal-body bg-body-tertiary">
-                    <form>
-
-                        <input type="text" class="p-3 w-100 rounded-3">
-                    </form>
+                <div class="field my-3 ">
+                    <input type="email" required>
+                    <label class="tail" > Are you sure you want to delete animal with RFID TAG_4?</label>
                 </div>
 
                 <!-- FOOTER -->
@@ -638,6 +644,7 @@
             </div>
         </div>
     </div>
+    <!-- modal delete -->
     <div class="modal" tabindex="-1" id="Supprime-table">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -649,8 +656,9 @@
                 </div>
 
                 <!-- BODY -->
-                <div class="modal-body bg-body-tertiary">
-                    <input type="text" class="p-3 rounded-3 w-100">
+                <div class="field m-3">
+                    <input type="email" required>
+                    <label>Enter your email</label>
                 </div>
 
                 <!-- FOOTER -->

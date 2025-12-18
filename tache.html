@@ -68,7 +68,7 @@
              <nav class="col-12 col-md-3 col-lg-12
                    bg-light p-3 nav1
                    d-flex flex-column flex-lg-row
-                   gap-3 flex-wrap">
+                   gap-3 align">
 
                 <div class="bg-white shadow rounded-3 text-center p-3 flex-lg-fill">
                     <img src="Icons/dashboard.svg" style="width:100px" alt="">
@@ -198,7 +198,7 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#"><i class="bi bi-person-fill-gear"></i> Paramètre
                                         du compte</a></li>
-                                <li><a class="dropdown-item" href="#"> <i class="bi bi-box-arrow-right"></i> Se
+                                 <li><a class="dropdown-item" href="connection.html"> <i class="bi bi-box-arrow-right"></i> Se
                                         déconnecter</a></li>
                             </ul>
                         </div>
@@ -213,9 +213,9 @@
             <section class="col-12 contenu col-md-9 col-lg-12 px-4">
                 <div class="container card1 d-flex align-items-center gap-3 my-4">
                     <div class="bg-white rounded-3 p-2 shadow-sm">
-                        <img src="Icons/Stockage.svg" style="width:100px" alt="">
+                        <img src="Icons/Gestionnaire de Taches.svg" style="width:100px" alt="">
                     </div>
-                    <h3 class="mb-0">Stockage</h3>
+                    <h3 class="mb-0">Tache</h3>
                 </div>
                 <div class="container-fluid card1 mt-5 mb-3 d-flex align-items-center justify-content-between">
                     <!-- GROUPE GAUCHE -->
@@ -271,77 +271,77 @@
                                                 <td><input type="checkbox" class="form-check-input"></td>
                                                 <td>Acheter du fourrage</td>
                                                 <th class="d-flex gap-1">
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#modifiertable"><i
                                                             class="bi bi-pen-fill fs-2 "></i></div>
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#Supprime-table"><i
                                                             class="bi bi-trash3-fill"></i></div>
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#cochet-animal"><i
                                                             class="bi bi-check-lg"></i></div>
                                                 </th>
                                             <tr>
                                                 <td><input type="checkbox" class="form-check-input"></td>
                                                 <td>Soigner un animal malade</td>
                                                 <th class="d-flex gap-1">
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#modifiertable"><i
                                                             class="bi bi-pen-fill fs-2 "></i></div>
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#Supprime-table"><i
                                                             class="bi bi-trash3-fill"></i></div>
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#cochet-animal"><i
                                                             class="bi bi-check-lg"></i></div>
                                                 </th>
                                             <tr>
                                                 <td><input type="checkbox" class="form-check-input"></td>
                                                 <td>Désinfecter l'enclos</td>
                                                 <th class="d-flex gap-1">
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#modifiertable"><i
                                                             class="bi bi-pen-fill fs-2 "></i></div>
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#Supprime-table"><i
                                                             class="bi bi-trash3-fill"></i></div>
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#cochet-animal" ><i
                                                             class="bi bi-check-lg"></i></div>
                                                 </th>
                                             <tr>
                                                 <td><input type="checkbox" class="form-check-input"></td>
                                                 <td>Préparer les vaccins</td>
                                                 <th class="d-flex gap-1">
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#modifiertable"><i
                                                             class="bi bi-pen-fill fs-2 "></i></div>
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#Supprime-table"><i
                                                             class="bi bi-trash3-fill"></i></div>
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#cochet-animal"><i
                                                             class="bi bi-check-lg"></i></div>
                                                 </th>
                                             <tr>
                                                 <td><input type="checkbox" class="form-check-input"></td>
                                                 <td>Donner à manger aux animaux</td>
                                                 <th class="d-flex gap-1">
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#modifiertable"><i
                                                             class="bi bi-pen-fill fs-2 "></i></div>
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#Supprime-table"><i
                                                             class="bi bi-trash3-fill"></i></div>
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#cochet-animal"><i
                                                             class="bi bi-check-lg"></i></div>
                                                 </th>
                                             <tr>
                                                 <td><input type="checkbox" class="form-check-input"></td>
                                                 <td>Réparer l'abreuvoir</td>
                                                 <th class="d-flex gap-1">
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#modifiertable"><i
                                                             class="bi bi-pen-fill fs-2 "></i></div>
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#Supprime-table"><i
                                                             class="bi bi-trash3-fill"></i></div>
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#cochet-animal"><i
                                                             class="bi bi-check-lg"></i></div>
                                                 </th>
                                             <tr>
                                                 <td><input type="checkbox" class="form-check-input"></td>
                                                 <td>Préparer les vaccins</td>
                                                 <th class="d-flex gap-1">
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#modifiertable"><i
                                                             class="bi bi-pen-fill fs-2 "></i></div>
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3  fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#Supprime-table"><i
                                                             class="bi bi-trash3-fill"></i></div>
-                                                    <div class="cercle text-center rounded-3 fw-bold fs-2"><i
+                                                    <div class="cercle text-center rounded-3 fw-bold fs-2" data-bs-toggle="modal" data-bs-target="#cochet-animal"><i
                                                             class="bi bi-check-lg"></i></div>
                                                 </th>
                                             </tr>
@@ -370,7 +370,7 @@
                                             <tr>
                                                 <td><input type="checkbox" class="form-check-input"></td>
                                                 <td>Acheter du fourrage</td>
-                                                <th class="d-flex gap-1">
+                                                <th class="d-flex gap-1" data-bs-toggle="modal" data-bs-target="#Supprime-table">
                                                     <div class="cercle-rouge text-center rounded-3 fw-bold fs-2"><i
                                                             class="bi bi-trash3-fill"></i></div>
                                                 </th>
@@ -378,7 +378,7 @@
                                             <tr>
                                                 <td><input type="checkbox" class="form-check-input"></td>
                                                 <td>Acheter du fourrage</td>
-                                                <th class="d-flex gap-1">
+                                                <th class="d-flex gap-1" data-bs-toggle="modal" data-bs-target="#Supprime-table">
                                                     <div class="cercle-rouge text-center rounded-3 fw-bold fs-2"><i
                                                             class="bi bi-trash3-fill"></i></div>
                                                 </th>
@@ -386,7 +386,7 @@
                                             <tr>
                                                 <td><input type="checkbox" class="form-check-input"></td>
                                                 <td>Acheter du fourrage</td>
-                                                <th class="d-flex gap-1">
+                                                <th class="d-flex gap-1" data-bs-toggle="modal" data-bs-target="#Supprime-table">
                                                     <div class="cercle-rouge text-center rounded-3 fw-bold fs-2"><i
                                                             class="bi bi-trash3-fill"></i></div>
                                                 </th>
@@ -394,7 +394,7 @@
                                             <tr>
                                                 <td><input type="checkbox" class="form-check-input"></td>
                                                 <td>Acheter du fourrage</td>
-                                                <th class="d-flex gap-1">
+                                                <th class="d-flex gap-1" data-bs-toggle="modal" data-bs-target="#Supprime-table">
                                                     <div class="cercle-rouge text-center rounded-3 fw-bold fs-2"><i
                                                             class="bi bi-trash3-fill"></i></div>
                                                 </th>
@@ -408,6 +408,98 @@
                 </div>
             </section>
     </main>
+
+     <!-- modal-table -->
+    <div class="modal" tabindex="-1" id="modifiertable">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- HEADER -->
+                <div class="modal-header bg-secondary-subtle">
+                    <h5 class="modal-title fw-bold ">Configurer un nouveau traqueur RFID</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- BODY -->
+                <div class="field my-3 ">
+                    <input type="email" required>
+                    <label class="tail" > Are you sure you want to delete animal with RFID TAG_4?</label>
+                </div>
+
+                <!-- FOOTER -->
+                <div class="modal-footer bg-secondary-subtle">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">
+                        AnuleZ
+                    </button>
+                    <button class="btn btn-primary">
+                        Sauvegarder les changements
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+     <!-- modal delete -->
+    <div class="modal" tabindex="-1" id="Supprime-table">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- HEADER -->
+                <div class="modal-header bg-secondary-subtle">
+                    <h5 class="modal-title fw-bold text-danger ">Remote Tag</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- BODY -->
+                <div class="field m-3">
+                    <input type="email" required>
+                    <label>are your sure to delete</label>
+                </div>
+
+                <!-- FOOTER -->
+                <div class="modal-footer bg-secondary-subtle">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">
+                        Cancer
+                    </button>
+                    <button class="btn btn-danger">
+                        Delete
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- cochet the animal -->
+    <div class="modal" tabindex="-1" id="cochet-animal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- HEADER -->
+                <div class="modal-header bg-secondary-subtle">
+                    <h5 class="modal-title fw-bold text-success ">check Tag</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- BODY -->
+                <div class="field m-3">
+                    <input type="email" required>
+                    <label>are your sure to check the tag</label>
+                </div>
+
+                <!-- FOOTER -->
+                <div class="modal-footer bg-secondary-subtle">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">
+                        Cancer
+                    </button>
+                    <button class="btn btn-danger">
+                        Delete
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
