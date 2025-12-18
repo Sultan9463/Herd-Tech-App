@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herd-Tech-App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="container-fluid entete py-3 bg-light">
+        <div class="container-fluid">
+            <div class="row align-items-center text-center text-md-start g-3">
+                <!-- LOGO -->
+                <div class="col-12 col-md-3">
+                    <img src="Icons/favico.svg" class="img-fluid imag" style="max-width:100px;" alt="">
+                </div>
+                <!-- TITRE -->
+                <div class="col-12 col-md-4">
+                    <h1 class="fs-2 fw-bold mb-0">
+                        Bienvenue, Mallam!
+                    </h1>
+                </div>
+                <div class="col-12 col-md-5">
+                    <div class="d-flex justify-content-center justify-content-md-end gap-4">
+                        <div class="dropdown">
+                            <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="bi bi-gear-fill fs-2"></i> Paramètres
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-person-fill-gear"> </i> <i
+                                            class="bi bi-moon-fill"></i>/<i class="bi bi-brightness-high-fill"></i> Mode
+                                        sombre</a></li>
+                                <li><a class="dropdown-item" href="#"> <i class="bi bi-globe2"></i> Langue</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown">
+                            <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="bi bi-person-fill fs-2"></i> Compte
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-person-fill-gear"></i> Paramètre
+                                        du compte</a></li>
+                                <li><a class="dropdown-item" href="#"> <i class="bi bi-box-arrow-right"></i> Se
+                                        déconnecter</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVIGATION -->
+    <main class="container-fluid">
+        <div class="row">
+            <!-- NAV -->
+            <nav class="col-12 col-md-3 col-lg-12
+                   bg-light p-3 nav1
+                   d-flex flex-column flex-lg-row
+                   gap-3 flex-wrap">
+
+                <div class="bg-white shadow rounded-3 text-center p-3 flex-lg-fill">
+                    <img src="Icons/dashboard.svg" style="width:100px" alt="">
+                    <a href="index.html">
+                        <h4 class="fw-bold mb-0">Tableau de bord</h4>
+                    </a>
+                </div>
+
+
+
+                <div class="bg-white shadow rounded-3 text-center p-3 flex-lg-fill">
+                    <img src="Icons/Carte de la ferme.svg" style="width:100px" alt="">
+                    <a href="carte.html">
+                        <h4 class="fw-bold mb-0">Carte</h4>
+                    </a>
+                </div>
+
+
+
+                <div class="bg-white shadow rounded-3 text-center p-3 flex-lg-fill">
+                    <img src="Icons/Bovins.svg" style="width:100px" alt="">
+                    <a href="cheptel.html">
+                        <h4 class="fw-bold mb-0">Cheptels</h4>
+                    </a>
+                </div>
+
+
+
+                <div class="bg-white shadow rounded-3 text-center p-3 flex-lg-fill">
+                    <img src="Icons/Stockage.svg" style="width:100px" alt="">
+                    <a href="stockage.html">
+                        <h4 class="fw-bold mb-0">Stockage</h4>
+                    </a>
+
+                </div>
+
+
+                <div class="bg-white shadow rounded-3 text-center p-3 flex-lg-fill">
+                    <img src="Icons/Suivi du bétail.svg" style="width:100px" alt="">
+                    <a href="suivi.html">
+                        <h4 class="fw-bold mb-0">Suivi</h4>
+                    </a>
+                </div>
+
+
+
+                <div class="bg-white shadow rounded-3 text-center p-3 flex-lg-fill">
+                    <img src="Icons/Gestionnaire de Taches.svg" style="width:100px" alt="">
+                    <a href="tache.html">
+                        <h4 class="fw-bold mb-0">Taches</h4>
+                    </a>
+                </div>
+
+
+                <div class="position-relative bg-white shadow rounded-3 text-center p-3 flex-lg-fill">
+                    <!-- Badge notification -->
+                    <span class="position-absolute top-0 start-0 translate-middle badge p-2 fs-5 rounded-pill bg-danger">
+                        16
+                    </span>
+                    <!-- Contenu du card -->
+                    <img src="Icons/Notifications.svg" style="width:100px" alt="">
+                    <a href="notification.html">
+                        <h4 class="fw-bold mb-0">Notifications</h4>
+                    </a>
+                </div>
+            </nav>
+
+            <!-- cachet -->
+            <nav class="col-12 col-md-3 col-lg-12
+                   bg-light p-3 cach d-none
+                   d-flex flex-column flex-lg-row
+                   gap-3 flex-wrap">
+                <a href="index.html"><div class="bg-white rounded-3  p-2 shadow-sm">
+                    <img src="Icons/dashboard.svg" style="width:60px" alt="">
+                </div></a>
+
+                <a href="carte.html"><div class="bg-white rounded-3 p-2 shadow-sm">
+                    <img src="Icons/Carte de la ferme.svg" style="width:60px" alt="">
+                </div></a>
+
+                <a href="cheptel.html"><div class="bg-white rounded-3 p-2 shadow-sm">
+                    <img src="Icons/Bovins.svg" style="width:60px" alt="">
+                </div></a>
+
+                <a href="stockage.html"><div class="bg-white rounded-3 p-2 shadow-sm">
+                    <img src="Icons/Stockage.svg" style="width:60px" alt="">
+                </div></a>
+
+                <a href="suivi.html"><div class="bg-white rounded-3 p-2 shadow-sm">
+                    <img src="Icons/Suivi du bétail.svg" style="width:60px" alt="">
+                </div></a>
+
+                <a href="tache.html"><div class="bg-white rounded-3 p-2 shadow-sm">
+                    <img src="Icons/Gestionnaire de Taches.svg" style="width:60px" alt="">
+                </div></a>
+                <a href="notification.html"><div class="position-relative bg-white shadow rounded-3 text-center p-3 flex-lg-fill">
+                    <span class="position-absolute top-0 start-0 translate-middle badge p-1 fs-5 rounded-pill bg-danger">
+                        16
+                    </span>
+                    <img src="Icons/Notifications.svg" style="width:60px" alt="">
+                </div></a>
+
+                <a href="tache.html">
+                    <div class="bg-white rounded-3 p-2 shadow-sm">
+                        <div class="dropup-center dropup">
+                            <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="bi bi-gear-fill fs-2"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-person-fill-gear"> </i> <i
+                                            class="bi bi-moon-fill"></i>/<i class="bi bi-brightness-high-fill"></i> Mode
+                                        sombre</a></li>
+                                <li><a class="dropdown-item" href="#"> <i class="bi bi-globe2"></i> Langue</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="tache.html">
+                    <div class="bg-white rounded-3 p-2 shadow-sm">
+                        <div class="dropup-center dropup">
+                            <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="bi bi-person-fill fs-2"></i>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-person-fill-gear"></i> Paramètre
+                                        du compte</a></li>
+                                <li><a class="dropdown-item" href="#"> <i class="bi bi-box-arrow-right"></i> Se
+                                        déconnecter</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </a>
+            </nav>
+
+
+
+            <!-- CONTENU -->
+            <section class="col-12 contenu col-md-9 col-lg-12 px-4">
+                <div class="container-fluid d-flex align-items-center gap-3 my-4">
+                    <div class="bg-white rounded-3 p-2 shadow-sm">
+                        <img src="Icons/Carte de la ferme.svg" style="width:100px" alt="">
+                    </div>
+                    <h3 class="mb-0">Cartes-Maps</h3>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

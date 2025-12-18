@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body , .card-bg{
+    background: #EDEDED !important;
+}
+.imag {
+    filter: invert(42%) sepia(98%) saturate(422%) hue-rotate(85deg) brightness(95%) contrast(90%);
+}
+.card1{
+     max-width: 1700px !important;
+}
+.card2{
+    max-width: 1700px !important;
+     height: auto !important;
+}
+.cach{
+    width: auto !important;
+}
+
+.bovin{
+    width: 200px !important;
+}
+.test{
+    color: #65B246 !important;
+}
+.contenu{
+     background: #D2D2D2 !important;
+}
+.tachet{
+    background: #D2D2D2 !important;
+}
+.gauch-borde{
+    border-left: 40px solid rgba(7, 97, 243, 0.998);
+}
+.gauch-vert{
+    border-left: 40px solid #009D67;
+}
+.gauch-danger{
+    border-left: 40px solid #FC941B;
+}
+.gauch-critique{
+    border-left: 40px solid #EA4B5C;
+}
+
+.top{
+    border-bottom: 2px solid rgb(24, 22, 22) !important;
+}
+.cercle{
+    width: 60px !important;
+    height: 60px;
+    background: #65B246;
+}
+.cercle-rouge{
+    width: 60px !important;
+    height: 60px;
+    background: #df3822;
+}
+.cercle1{
+    width: 60px !important;
+    height: 40px;
+    background: #bcbfbb;
+}
+.form-check-input{
+    font-size: 1.1em;
+    border: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media (max-width: 768px) {
+    .cach{
+        display: flex !important;
+        position: fixed;
+    }
+    .contenu{
+        padding-left: 120px !important;
+        background-color: #65B246;
+        width: 100% !important;
+    }
+    .entete{
+        display: none;
+    }
+    .nav1{
+        display: none !important;
+    }
+    
+}
