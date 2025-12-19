@@ -6,9 +6,6 @@
 body , .card-bg{
     background: #EDEDED !important;
 }
-.imag {
-    filter: invert(42%) sepia(98%) saturate(422%) hue-rotate(85deg) brightness(95%) contrast(90%);
-}
 .card1{
      max-width: 1700px !important;
 }
@@ -44,13 +41,12 @@ body , .card-bg{
 .gauch-critique{
     border-left: 40px solid #EA4B5C;
 }
-
 .top{
     border-bottom: 2px solid rgb(24, 22, 22) !important;
 }
 .cercle{
     width: 60px !important;
-    height: 60px;
+    height: 50px;
     background: #65B246;
 }
 .cercle-rouge{
@@ -58,32 +54,25 @@ body , .card-bg{
     height: 60px;
     background: #df3822;
 }
-.cercle1{
-    width: 60px !important;
-    height: 40px;
-    background: #bcbfbb;
+.cercle1 {
+    width: 45px;
+    height: 45px;
+    background: #d9dde0;
+    cursor: pointer;
+    transition: 0.2s;
 }
 .form-check-input{
     font-size: 1.1em;
     border: 1px solid black;
 }
-a{
-    /* text-decoration: none; */
-    color: black;
-}
-header a{
-    text-decoration: none !important;
-}
 .align a{
     text-decoration: none !important;
+    color: black;
 }
 
 .tail{
     font-size: 18px !important;
 }
-
-/* parti 2 */
-
 /* Carte du formulaire */
 .form-container {
     background: #fff;
@@ -103,7 +92,6 @@ header a{
     position: relative;
     margin-bottom: 22px;
 }
-
 .field input{
     width: 100%;
     padding: 24px;
@@ -122,8 +110,8 @@ header a{
     font-size: 20px;
     transform: translateY(-50%);
     transition: 0.3s;
+     pointer-events: none; /* ⬅ empêche le clic sur le texte */
 }
-
 /* Animation label */
 .field input:focus{
     border-color: #1976d2;
@@ -134,8 +122,6 @@ header a{
     font-size: 20px;
     color: black;
 }
-
-
 @media (max-width: 768px) {
     .cach{
         display: flex !important;
